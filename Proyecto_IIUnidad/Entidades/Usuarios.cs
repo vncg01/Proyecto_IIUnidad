@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Usuario
+    public class Usuarios
     {
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Clave { get; set; }
         public string? Correo { get; set; }
         public string Rol { get; set; }
-        public bool EstadoActivo { get; set; }
+        public bool EstaActivo { get; set; }
     }
 }
